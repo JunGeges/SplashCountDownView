@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SplashCountDownView">
+        <!--内圆的宽度-->
+        <attr name="inner_circle_width" format="dimension"/>
+        <!--内圆的颜色-->
+        <attr name="inner_circle_color" format="color"/>
+        <!--内圆半径-->
+        <attr name="inner_circle_radius" format="dimension"/>
+        <!--进度弧度宽度-->
+        <attr name="arc_width" format="dimension"/>
+        <!--进度弧度的颜色-->
+        <attr name="arc_color" format="color"/>
+        <!--倒计时文字的大小-->
+        <attr name="count_down_text_size" format="dimension"/>
+        <!--倒计时文字的颜色-->
+        <attr name="count_down_text_color" format="color"/>
+        <!--进度开始的方向-->
+        <attr name="start_orientation" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jensen.splashcountdownview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <com.jensen.splashcountdownview.SplashCountDownView
+            android:id="@+id/splash_count_view_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            app:inner_circle_color="@color/colorAccent"
+            app:inner_circle_width="2dp"
+            app:inner_circle_radius="30dp"
+            app:count_down_text_color="@android:color/black"
+            app:arc_color="#0000ff"
+            app:start_orientation="right"
+            />
+
+        <com.jensen.splashcountdownview.SplashCountDownView
+            android:id="@+id/splash_count_view_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            app:inner_circle_color="@color/colorAccent"
+            app:inner_circle_width="2dp"
+            app:inner_circle_radius="40dp"
+            app:count_down_text_color="@android:color/black"
+            app:arc_color="#364598"
+            app:start_orientation="bottom"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <com.jensen.splashcountdownview.SplashCountDownView
+            android:id="@+id/splash_count_view_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:inner_circle_color="@color/colorAccent"
+            app:inner_circle_width="2dp"
+            app:inner_circle_radius="37dp"
+            app:count_down_text_color="@android:color/black"
+            app:arc_color="#505684"
+            app:start_orientation="left"
+            />
+
+        <com.jensen.splashcountdownview.SplashCountDownView
+            android:id="@+id/splash_count_view_4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:inner_circle_color="@color/colorAccent"
+            app:inner_circle_width="2dp"
+            app:inner_circle_radius="90dp"
+            app:count_down_text_color="@android:color/black"
+            app:arc_color="#00ff00"
+            app:start_orientation="top"
+            />
+    </LinearLayout>
+
+    <com.jensen.splashcountdownview.SplashCountDownView
+        android:id="@+id/splash_count_view_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:inner_circle_color="@color/colorAccent"
+        app:inner_circle_width="2dp"
+        app:inner_circle_radius="50dp"
+        app:count_down_text_color="@android:color/holo_green_dark"
+        app:arc_color="#658745"
+        app:start_orientation="top"
+        app:count_down_text_size="30sp"
+        />
+
+</LinearLayout>
